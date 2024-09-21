@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+    padding-top: 60px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif; 
+}
+
+.post {
+    width: 820px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+/* Navbar   
+ Styling */
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Contact Container */
+.contact_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+}
+
+
+
+/* Image Controls */
+.img {
+    width: 150px; 
+    height: 150px; 
+    
+}
+
+.rowsocial {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* Social Media Shake Feature */
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-facebook:hover,
+.fa-instagram:hover {
+    animation: shake-animation 4.72s ease infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+    0% { transform: translate(0, 0); }
+    1.78571% { transform: translate(5px, 0); }
+    3.57143% { transform: translate(0, 0); }
+    5.35714% { transform: translate(5px, 0); }
+    7.14286% { transform: translate(0, 0); }
+    8.92857% { transform: translate(5px, 0); }
+    10.71429% { transform: translate(0, 0); }
+    100% { transform: translate(0, 0); }
+}
